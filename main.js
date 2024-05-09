@@ -2,11 +2,11 @@ let nomeUsuário = "";
 let elemento = document.querySelector("#nome-usuário");
 
 while(nomeUsuário == ""){
-    nomeUsuário = prompt("Qual o seu nome?");
+    nomeUsuário = prompt("Digita seu nome ai pra mim:");
 }
 
 if(nomeUsuário == null){
-    elemento.textContent = 'seja muito bem-vindo.';
+    elemento.textContent = 'VLW seja muito bem-vindo.';
 }else{
     elemento.textContent = nomeUsuário;
 }
